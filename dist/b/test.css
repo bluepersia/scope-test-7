@@ -1,0 +1,4 @@
+.test-2
+{
+    --scope-hash: 3; /* Collision-prevention ID */
+}

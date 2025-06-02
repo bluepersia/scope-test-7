@@ -1,5 +1,4 @@
-.test
+.test-1
 {
     --scope-hash: testhash; /* Collision-prevention ID */
-
 }

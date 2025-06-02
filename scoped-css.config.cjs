@@ -9,7 +9,7 @@ module.exports = {
   writeRuntimeMap: false, // Write the map needed for runtime auto-BEM
   copyFiles: true, //Copy rest of files (not html, css, jsx or tsx files)
   contextSymbol: ':', // Stop the path shortener from affecting content with this symbol in class
-  teamRepo: false, // Scan team files for usage and only enable hash/ID if module name is already used
+  teamRepo: 'team-repo', // Scan team files for usage and only enable hash/ID if module name is already used
   stripClasses: true, //Strip classes that are never targetted with CSS.
   flattenCombis: [], //Flatten combinators, e.g. > becomes _a_
   overrideConfig: {},
